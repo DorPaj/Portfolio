@@ -1,0 +1,148 @@
+@media screen and (min-width: 1000px) {
+
+body, html {
+	background-color: #B3A492;
+	font-family: Calibri;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+header, footer {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-sizing: border-box;
+	background-color: #DADDB1;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 100%;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+#container {
+	flex-direction: column;
+	display: flex;
+	width: 900px;
+	margin: auto;
+}
+
+section {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background-color: #DADDB1;
+	align-items: center;
+	margin-top: 40px;
+	display: flex;
+	padding: 20px;
+	width: 880px;
+}
+
+img {
+	margin-right: 20px;
+	max-height: 200px;
+    max-width: 200px;
+}
+
+.text {
+	text-align: justify;
+    flex: 1;
+}
+
+h2 {
+	text-align: center;
+}
+
+.text > * {
+	margin: 0;
+}
+
+a {
+	color: #3366cc;
+}
+
+a:hover {
+	color: #ff9900;
+}
+
+a:visited {
+	color: #800080;
+}
+
+}
+
+@media screen and (max-width: 999px) {
+
+body, html {
+	background-color: #B3A492;
+	font-family: Calibri;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	flex-direction: column;
+	display: flex;
+	width: 90%;
+	margin: auto;
+}
+
+section {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background-color: #DADDB1;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+}
+
+header, footer {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-sizing: border-box;
+	background-color: #DADDB1;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 100%;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+img {
+	margin-right: 20px;
+	max-height: 200px;
+    max-width: 200px;
+}
+
+.text {
+	text-align: justify;
+    flex: 1;
+}
+
+h2 {
+	text-align: center;
+}
+
+.text > * {
+	margin: 0;
+}
+
+a {
+	color: #3366cc;
+}
+
+a:hover {
+	color: #ff9900;
+}
+
+a:visited {
+	color: #800080;
+}
+
+}
