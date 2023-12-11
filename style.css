@@ -107,7 +107,8 @@ header, footer {
 	text-align: center;
 	padding: 10px;
 	float: left;
-	width: 100%;
+	width: 90%;
+	margin-left: 2.5%;
 }
 
 footer {
