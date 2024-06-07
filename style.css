@@ -1,0 +1,85 @@
+body, html {
+	font-family: "Montserrat", sans-serif;
+	background-color: #B3A492;
+	color: #5B5E3B;
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	flex-direction: column;
+	display: flex;
+	width: 900px;
+	margin: auto;
+}
+
+header, footer {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-sizing: border-box;
+	background-color: #DADDB1;
+	text-align: center;
+	padding: 8px;
+	float: left;
+	width: 100%;
+}
+
+section {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background-color: #DADDB1;
+	align-items: flex-start;
+	display: flex;
+	margin-top: 32px;
+	padding: 16px;
+}
+
+img {
+	width: 150px;
+	height: auto;
+}
+
+h2 {
+	margin: 0;
+}
+
+.text_content {
+	margin-left: 16px;
+	flex: 1;
+}
+
+a {
+	color: #3366cc;
+}
+
+a:hover {
+	color: #ff9900;
+}
+
+a:visited {
+	color: #800080;
+}
+
+footer {
+	margin-top: 32px;
+}
+
+@media screen and (max-width: 999px) {
+	#container {
+		width: calc(100% - 50px);
+	}
+	
+	section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+		margin-top: 16px;
+		padding: 8px;
+    }
+	
+	header, footer {
+		padding: 4px;
+	}
+	
+	footer {
+		margin-top: 16px;
+	}
+}
